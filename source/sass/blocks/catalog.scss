@@ -1,11 +1,29 @@
 .catalog {
   max-width: 320px;
   margin: 0 auto;
+
+  @media (min-width: $bp-tablet) {
+    max-width: 668px;
+  }
+
+  @media (min-width: $bp-desktop) {
+    min-width: 1200px;
+  }
 }
 
 .catalog__list {
   margin: 0;
   padding: 0;
+
+  @media (min-width: $bp-tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $bp-desktop) {
+    justify-content: space-around;
+  }
 }
 
 .catalog__item {

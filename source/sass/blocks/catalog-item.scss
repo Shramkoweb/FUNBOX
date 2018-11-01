@@ -1,4 +1,18 @@
+.catalog-item {
+  @media (min-width: $bp-tablet) {
+    max-width: 320px;
 
+    &:last-child {
+      margin: auto;
+    }
+  }
+
+  @media (min-width: $bp-desktop) {
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
 
 .catalog-item__text {
   margin: 0;

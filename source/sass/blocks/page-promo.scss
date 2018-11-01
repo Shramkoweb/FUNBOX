@@ -9,4 +9,8 @@
   text-align: center;
   color: #ffffff;
   text-shadow: 0 1px 0 #000000;
+
+  @media (min-width: $bp-desktop) {
+    margin-bottom: 0.5em;
+  }
 }
