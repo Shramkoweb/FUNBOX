@@ -79,7 +79,7 @@
   padding-right: 64px;
   padding-left: 48px;
 
-  background-image: url("../../img/bi-default.png");
+  background-image: url("../img/bi-default.png");
   background-repeat: no-repeat;
   cursor: pointer;
 
@@ -90,7 +90,7 @@
   }
 
   &--selected {
-    background-image: url("../../img/bi-selected.png");
+    background-image: url("../img/bi-selected.png");
 
     .catalog-item__weight {
       background-color: #d91667;
@@ -148,7 +148,7 @@
 .catalog__card--disabled {
   color: #b3b3b3;
 
-  background-image: url("../../img/bi-disabled.png");
+  background-image: url("../img/bi-disabled.png");
 
   pointer-events: none;
 
